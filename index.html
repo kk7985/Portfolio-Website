@@ -819,115 +819,11 @@
     </div>
   </section>
 
-  <!-- PROJECT 3 DETAIL -->
+  <!-- PROJECT 4 DETAIL -->
   <section id="p3">
     <button class="back-btn" onclick="go('projects', document.querySelectorAll('.nav-links a')[1])"><span class="back-arrow">←</span> Back to Projects</button>
     <div class="proj-detail-header">
-      <div class="detail-num">03</div>
-      <div class="detail-title">COVID-19 Trend Analysis</div>
-      <div class="detail-meta">
-        <span class="detail-type">Public Data Analysis</span>
-        <div class="detail-sep"></div>
-        <span class="detail-year">2023</span>
-      </div>
-      <div class="detail-tags tags">
-        <span class="tag">SQL</span><span class="tag">Tableau</span><span class="tag">Python</span>
-      </div>
-    </div>
-    <!-- PROJECT DETAIL BODY -->
-    <div class="detail-body">
-      <div>
-        <div class="detail-section-title">Overview</div>
-        <div class="detail-text">
-          <p>Analyzed publicly available COVID-19 datasets from <strong>WHO and Our World in Data</strong> to track how different countries managed the pandemic across waves, vaccination rollouts, and mortality rates.</p>
-        </div>
-
-        <div class="detail-section-title">Problem Statement</div>
-        <div class="detail-text">
-          <p>Publicly available COVID-19 data was scattered across multiple sources and formats, making it difficult to draw meaningful cross-country comparisons on how vaccination and policy responses affected mortality outcomes.</p>
-        </div>
-
-        <div class="detail-section-title">Problem Objective</div>
-        <div class="detail-text">
-          <p>Consolidate, clean, and visualize multi-country COVID-19 data into a single interactive dashboard that clearly shows the relationship between vaccination rollout speed and case fatality rates across different waves.</p>
-        </div>
-
-        <div class="detail-section-title">Steps in Process</div>
-        <div class="steps-list">
-          <div class="step-item">Pulled datasets from WHO and Our World in Data covering 50+ countries across multiple pandemic waves.</div>
-          <div class="step-item">Wrote SQL joins and aggregations to merge case, death, and vaccination tables into a unified dataset.</div>
-          <div class="step-item">Used Pandas to fix date formats, standardize country codes, and compute 7-day rolling averages.</div>
-          <div class="step-item">Built choropleth maps, wave timelines, and vaccination vs. fatality rate comparison charts in Tableau.</div>
-          <div class="step-item">Identified key insights around early vaccination adoption and its impact on later wave mortality.</div>
-        </div>
-
-        <div class="detail-section-title">What I Did</div>
-        <div class="detail-highlights">
-          <div class="highlight-item"><div class="hl-icon">🗄</div><div class="hl-text"><strong>Wrote SQL queries</strong> to extract, join, and aggregate data across 50+ countries from multiple source tables.</div></div>
-          <div class="highlight-item"><div class="hl-icon">🐍</div><div class="hl-text"><strong>Used Python (Pandas)</strong> to clean date formats, handle inconsistent country codes, and compute rolling averages.</div></div>
-          <div class="highlight-item"><div class="hl-icon">🗺</div><div class="hl-text"><strong>Built a Tableau dashboard</strong> with choropleth maps, wave timelines, and vaccination vs. fatality rate comparisons.</div></div>
-          <div class="highlight-item"><div class="hl-icon">📌</div><div class="hl-text"><strong>Identified key patterns</strong> — countries with early vaccination drives saw significantly lower case fatality rates in later waves.</div></div>
-        </div>
-
-        <div class="detail-section-title">Outcome</div>
-        <div class="detail-text">Produced a fully interactive Tableau story that made complex pandemic data accessible and comparable across 50+ nations.</div>
-        <div class="github-link-wrap">
-          <a class="github-link" href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
-            View on GitHub
-          </a>
-        </div>
-      </div>
-      <div class="detail-sidebar">
-        <div class="info-card">
-          <div class="info-row"><div class="ilab">Category</div><div class="ival">Public Data Analysis</div></div>
-          <div class="info-row"><div class="ilab">Tools</div><div class="ival">SQL, Python, Tableau</div></div>
-          <div class="info-row"><div class="ilab">Dataset</div><div class="ival">WHO · Our World in Data</div></div>
-          <div class="info-row"><div class="ilab">Duration</div><div class="ival">3 weeks</div></div>
-          <div class="info-row"><div class="ilab">Year</div><div class="ival">2023</div></div>
-        </div>
-        <!-- SCREENSHOTS IN SIDEBAR -->
-        <div class="sidebar-screenshots">
-          <div class="sidebar-screenshots-label">Screenshots</div>
-          <div class="detail-img-slot" onclick="openLightbox('https://raw.githubusercontent.com/kk7985/YOUR_REPO/main/images/p3-screenshot1.png', 'COVID-19 Analysis — Screenshot 1')">
-            <img src="https://raw.githubusercontent.com/kk7985/YOUR_REPO/main/images/p3-screenshot1.png" alt="COVID-19 Analysis Screenshot 1" onerror="this.style.display='none';document.getElementById('p3-sa-ph').style.display='flex'"/>
-            <div class="detail-img-placeholder" id="p3-sa-ph" style="display:none;">
-              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-              Add image URL in src
-            </div>
-          </div>
-          <div class="detail-img-slot" onclick="openLightbox('https://raw.githubusercontent.com/kk7985/YOUR_REPO/main/images/p3-screenshot2.png', 'COVID-19 Analysis — Screenshot 2')">
-            <img src="https://raw.githubusercontent.com/kk7985/YOUR_REPO/main/images/p3-screenshot2.png" alt="COVID-19 Analysis Screenshot 2" onerror="this.style.display='none';document.getElementById('p3-sb-ph').style.display='flex'"/>
-            <div class="detail-img-placeholder" id="p3-sb-ph" style="display:none;">
-              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-              Add image URL in src
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- DEMO VIDEO -->
-    <div class="demo-section">
-      <div class="demo-title">Project Demo</div>
-      <div class="demo-sub">Watch a walkthrough of the COVID-19 Tableau dashboard and key findings.</div>
-      <div class="demo-video-wrap" id="dv3" onclick="demoPlay('dv3-vid','do3')">
-        <video id="dv3-vid" preload="metadata" playsinline controls>
-          <source src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/videos/project3.mp4" type="video/mp4"/>
-          Your browser does not support the video tag.
-        </video>
-        <div class="demo-overlay" id="do3">
-          <div class="demo-play-btn"><div class="demo-play-icon"></div></div>
-          <div class="demo-play-label">Play Demo</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECT 4 DETAIL -->
-  <section id="p4">
-    <button class="back-btn" onclick="go('projects', document.querySelectorAll('.nav-links a')[1])"><span class="back-arrow">←</span> Back to Projects</button>
-    <div class="proj-detail-header">
-      <div class="detail-num">04</div>
+      <div class="detail-num"></div>
       <div class="detail-title">College Placement Study</div>
       <div class="detail-meta">
         <span class="detail-type">Academic Research</span>
