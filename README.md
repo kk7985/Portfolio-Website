@@ -4,3 +4,6 @@ My Portfolio Website
 ![Screenshot 2026-04-02 153303](Image Folder/Screenshot 2026-04-02 153303.png)
 ![cluster label age vs spending score](Image Folder/cluster label age vs spending score.png)
 ![Age vs spending score table](Image Folder/Age vs spending score table.png)
+![Graph API](Image Folder/Graph API.jpeg)
+![]()
+![]()
